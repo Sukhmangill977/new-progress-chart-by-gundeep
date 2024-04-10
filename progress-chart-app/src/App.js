@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './App.css'; // Import your CSS file for styling (optional)
+import Navbar from './components/Navbar'; // Import Navbar component
+import { BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
+const App = () =>{
   const [subject1Marks, setSubject1Marks] = useState(45); // Default for subject 1
   const [subject2Marks, setSubject2Marks] = useState(45); // Default for subject 2
 
@@ -28,6 +30,9 @@ function App() {
   };
 
   return (
+    <Router>
+    <div>
+        <Navbar /> 
     <div className="container"> {/* Container with white background */}
       <div className="content"> {/* Main content container */}
         <h1 className="black-text">Progress Chart</h1> {/* Black title */}
@@ -65,6 +70,8 @@ function App() {
         </div>
       </div>
     </div>
+    </div>
+    </Router>
   );
 }
 
