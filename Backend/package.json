@@ -1,12 +1,29 @@
 {
-  "name": "backend",
+  "name": "progress-chart",
   "version": "1.0.0",
-  "description": "",
+  "description": "progress chart of students",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sukhmangill977/new-progress-chart-by-gundeep.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sukhmangill977/new-progress-chart-by-gundeep/issues"
+  },
+  "homepage": "https://github.com/Sukhmangill977/new-progress-chart-by-gundeep#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongod": "^2.0.0",
+    "mongodb": "^6.5.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "keywords": []
 }

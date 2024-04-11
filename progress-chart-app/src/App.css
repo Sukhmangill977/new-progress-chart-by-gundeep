@@ -20,11 +20,13 @@
   padding: 20px; /* Add padding for spacing */
   /* padding-top: 10 px; */
   border-radius: 10px; /* Add border-radius for rounded corners */
+  flex-direction: column;
 
 }
 
 .content {
   width: 100%;
+  flex-direction: column;
 }
 
 .black-text {
@@ -33,4 +35,18 @@
 
 .container{
   padding-top: 110px ;
+}
+.marksBlock{
+  flex-direction: column;
+
+}
+
+.button{
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
 }
