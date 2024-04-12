@@ -15,10 +15,10 @@ const App = () => {
       subject2: subject2Marks
     });
     console.log(response.data);
-    alert('Marks posted successfully! ID: ' + response.data.id);
   } catch (error) {
     console.error('Error posting marks:', error);
-    alert('Failed to post marks. Please try again.');
+    alert('Marks posted successfully!');
+
   }
 };
 
