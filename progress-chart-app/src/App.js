@@ -10,7 +10,7 @@ const App = () => {
 
   const handelSubmitMarks = async () => {
   try {
-    const response = await axios.post('http://localhost:8000/update-marks', {
+    const response = await axios.post('https://new-progress-chart-by-gundeep.onrender.com/update-marks', {
       subject1: subject1Marks,
       subject2: subject2Marks
     });
